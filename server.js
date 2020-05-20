@@ -8,8 +8,9 @@ const projectData = require('./data');
 const schema = buildSchema(`
 
   type Query {    
-    project(name: String): Project
-    projects(category: String): [Project]
+    singleProject(name: String): Project
+    allProjects(category: String): [Project]
+    allProjectsInCategory(category: String!): [Project]
   }
 
   type Project
@@ -24,21 +25,30 @@ const schema = buildSchema(`
   }
 `);
 
-const getProject = (argument) => {
+const singleProject = (argument) => {
   const name = argument.name;
   return projectData.filter((project) => {
     return project.name === name;
   })[0];
 };
 
-const getProjects = () => {
+const allProjects = () => {
   return projectData.data;
 };
 
+const allProjectsInCategory = (argument) => {
+    const category = argument.category;
+    return projectData.filter((project) => {
+      return project.category === category;
+    })[0];
+  };
+
+
 // The root provides a resolver function for each API endpoint
 const root = {
-  project: getProject,
-  projects: getProjects,
+    singleProject: singleProject,
+    allProjects: allProjects,
+    allProjectsInCategory: allProjectsInCategory
 };
 
 const app = express();
