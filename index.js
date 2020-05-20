@@ -62,7 +62,7 @@ app.use(
   })
 );
 
-app.get(
+app.use(
   '/',
   graphqlHTTP({
     schema: schema,
