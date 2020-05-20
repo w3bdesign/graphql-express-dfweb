@@ -1,21 +1,21 @@
-
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
 
-const projectData = require('./data');
+const projectData = require('./data/data');
 
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
 
   type Query {    
-    singleProject(name: String): Project
+    singleProject(id: Int!): Project
     allProjects(category: String): [Project]
     allProjectsInCategory(category: String!): [Project]
   }
 
   type Project
   {
+    id: Int!
     name: String!
     description: String!
     subdescription: String!
@@ -27,9 +27,9 @@ const schema = buildSchema(`
 `);
 
 const singleProject = (argument) => {
-  const name = argument.name;
+  const id = argument.id;
   return projectData.filter((project) => {
-    return project.name === name;
+    return project.id === id;
   })[0];
 };
 
@@ -38,29 +38,20 @@ const allProjects = () => {
 };
 
 const allProjectsInCategory = (argument) => {
-    const category = argument.category;
-    return projectData.filter((project) => {
-      return project.category === category;
-    })[0];
-  };
-
+  const category = argument.category;
+  return projectData.filter((project) => {
+    return project.category === category;
+  })[0];
+};
 
 // The root provides a resolver function for each API endpoint
 const root = {
-    singleProject: singleProject,
-    allProjects: allProjects,
-    allProjectsInCategory: allProjectsInCategory
+  singleProject: singleProject,
+  allProjects: allProjects,
+  allProjectsInCategory: allProjectsInCategory,
 };
 
 const app = express();
-app.use(
-  '/graphql',
-  graphqlHTTP({
-    schema: schema,
-    rootValue: root,
-    graphiql: true,
-  })
-);
 
 app.use(
   '/',
@@ -70,8 +61,3 @@ app.use(
     graphiql: true,
   })
 );
-
-app.listen(4000);
-
-
-

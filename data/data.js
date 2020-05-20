@@ -1,6 +1,7 @@
 exports.data = 
 [
   {
+    id: 1,
     name: "Statens Vegvesen",
     description: "Henter informasjon fra https://www.vegvesen.no ",
     subdescription:"Inneholder: Javascript, Materialize, jQuery.",
@@ -10,6 +11,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556573/Dfweb/statens-vegvesen_xsth2e.jpg",
   },
   {
+    id: 2,
     name: "Nettbutikk i React",
     description: "Nettbutikk laget i React med Create React App. ",
     subdescription:"Inneholder: React, Firebase, Redux, Styled components.",
@@ -19,6 +21,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556748/Dfweb/react-ecommerce_pxj0my.jpg",
   },
   {
+    id: 3,
     name: "TODO med React Hooks",
     description: "TODO applikasjon med React Hooks og Ant Design. ",
     subdescription:"Inneholder: React, Ant Design, Hooks",
@@ -28,6 +31,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588555098/Dfweb/todo-hooks_ectluc.jpg",
   },
   {
+    id: 4,
     name: "DFWeb versjon 1",
     description: "Første versjon av www.dfweb.no. ",
     subdescription:"Inneholder: HTML, Javascript, SASS, GSAP",
@@ -37,6 +41,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556839/Dfweb/dfweb-v1_txl9wx.jpg",
   },
   {
+    id: 5,
     name: "Style Child",
     description: "Nettbutikk med Woocommerce og Pckasse integrasjon.",
     subdescription:"Inneholder: Wordpress, Woocommerce, Pckasse",
@@ -46,6 +51,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588558961/Dfweb/style-child_uuginq.jpg",
   },
   {
+    id: 6,
     name: "Min Hestebutikk",
     description: "Nettbutikk med Woocommerce og Pckasse integrasjon.",
     subdescription:"Inneholder: Wordpress, Woocommerce, Pckasse",
@@ -55,6 +61,7 @@ exports.data =
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg",
   },
   {
+    id: 7,
     name: "Dfweb versjon 2",
     description: "Nåværende portefølje med Gatsby og React.",
     subdescription:"Inneholder: Gatsby, GSAP, Framer Motion, Tailwind CSS ",
