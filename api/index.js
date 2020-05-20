@@ -53,7 +53,7 @@ const root = {
 };
 
 const app = express();
-module.exports = (req, res) => {
+
 app.use(
   '/graphql',
   graphqlHTTP({
@@ -64,4 +64,4 @@ app.use(
 );
 app.listen(4000);
 
-}
+
