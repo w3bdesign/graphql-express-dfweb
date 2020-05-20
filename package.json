@@ -2,10 +2,9 @@
   "name": "graphql-express-dfweb",
   "version": "1.0.0",
   "description": "",
-  "main": "api/test.js",
+  "main": "test.js",
   "scripts": {
-     
-    "start": "nodemon node api/test.js"
+    "start": "now dev"
   },
   "keywords": [],
   "author": "",
