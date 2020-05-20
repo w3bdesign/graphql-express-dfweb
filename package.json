@@ -2,9 +2,10 @@
   "name": "graphql-express-dfweb",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "api/test.js",
   "scripts": {
-    "start": "node server.js"
+     
+    "start": "nodemon node api/test.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
