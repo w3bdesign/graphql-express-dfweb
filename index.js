@@ -1,4 +1,5 @@
 const express = require('express');
+const router = express.Router()
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
 
@@ -52,6 +53,9 @@ const root = {
 };
 
 const app = express();
+
+app.use('/birds', birds)
+
 
 app.use(
   '/graphql',
