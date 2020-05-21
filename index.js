@@ -1,12 +1,12 @@
-const express = require('express');
-const router = express.Router()
-const graphqlHTTP = require('express-graphql');
-const { buildSchema } = require('graphql');
+var express = require('express');
+var router = express.Router()
+var graphqlHTTP = require('express-graphql');
+var { buildSchema } = require('graphql');
 
-const projectData = require('./data/data');
+var projectData = require('./data/data');
 
-// Construct a schema, using GraphQL schema language
-const schema = buildSchema(`
+// varruct a schema, using GraphQL schema language
+var schema = buildSchema(`
 
   type Query {    
     singleProject(id: Int!): Project
@@ -27,32 +27,32 @@ const schema = buildSchema(`
   }
 `);
 
-const singleProject = (argument) => {
-  const id = argument.id;
+var singleProject = (argument) => {
+  var id = argument.id;
   return projectData.filter((project) => {
     return project.id === id;
   })[0];
 };
 
-const allProjects = () => {
+var allProjects = () => {
   return projectData.data;
 };
 
-const allProjectsInCategory = (argument) => {
-  const category = argument.category;
+var allProjectsInCategory = (argument) => {
+  var category = argument.category;
   return projectData.filter((project) => {
     return project.category === category;
   })[0];
 };
 
 // The root provides a resolver function for each API endpoint
-const root = {
+var root = {
   singleProject: singleProject,
   allProjects: allProjects,
   allProjectsInCategory: allProjectsInCategory,
 };
 
-const app = express();
+var app = express();
 
 app.use('/birds', birds)
 
