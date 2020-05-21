@@ -54,12 +54,16 @@ const root = {
 const app = express();
 
 app.use(
-  '/',
+  '/graphql',
   graphqlHTTP({
     schema: schema,
     rootValue: root,
     graphiql: true,
   })
 );
+
+app.get('/', function (req, res) {
+  res.send('Nothing to see here')
+})
 
 app.listen(4000);
