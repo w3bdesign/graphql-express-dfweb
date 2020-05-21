@@ -9,10 +9,12 @@ router.use(function timeLog (req, res, next) {
 // define the home page route
 router.get('/', function (req, res) {
   res.send('Birds home page')
+  next()
 })
 // define the about route
 router.get('/about', function (req, res) {
   res.send('About birds')
+  next()
 })
 
 module.exports = router
