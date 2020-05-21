@@ -5,6 +5,8 @@ var { buildSchema } = require('graphql');
 
 var projectData = require('./data/data');
 
+var birds = require('./birds')
+
 // varruct a schema, using GraphQL schema language
 var schema = buildSchema(`
 
