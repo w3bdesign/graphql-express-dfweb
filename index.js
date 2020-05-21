@@ -53,6 +53,10 @@ const root = {
 
 const app = express();
 
+app.get('/', function (req, res) {
+  res.send('Nothing to see here')
+})
+
 app.use(
   '/graphql',
   graphqlHTTP({
@@ -62,8 +66,6 @@ app.use(
   })
 );
 
-app.get('/', function (req, res) {
-  res.send('Nothing to see here')
-})
+
 
 app.listen(4000);
