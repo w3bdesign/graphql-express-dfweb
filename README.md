@@ -1,2 +1,2 @@
-# graphql-express-dfweb
- GraphQL backend for Dfweb
+# GraphQL backend for Dfweb.no
+
