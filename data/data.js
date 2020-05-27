@@ -64,11 +64,21 @@ exports.data =
     id: 7,
     name: "Dfweb versjon 2",
     description: "Nåværende portefølje med Gatsby og React.",
-    subdescription:"Inneholder: Gatsby, GSAP, Framer Motion, Tailwind CSS ",
+    subdescription:"Inneholder: Gatsby, GSAP, Framer Motion, Tailwind CSS",
     category: "React",
     urlwww: "https://www.dfweb.no/",
     urlgithub:"https://github.com/w3bdesign/dfweb",    
     image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559314/Dfweb/dfweb-v2_g9wjyw.jpg",
+  },
+  {
+    id: 8,
+    name: "Nextjs Woocommerce",
+    description: "Nettbutikk med Woocommerce som backend. Under utvikling.",
+    subdescription:"Inneholder: NextJS, React, GraphQL, Styled Components med mer.",
+    category: "React",
+    urlwww: "https://nextjs-woocommerce.now.sh/",
+    urlgithub:"https://github.com/w3bdesign/nextjs-woocommerce",    
+    image: "https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1590539031/Dfweb/nextjs-woocommerce_kknqkg.jpg",
   },
 ]
   
