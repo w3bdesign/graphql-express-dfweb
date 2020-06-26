@@ -88,4 +88,16 @@ exports.data = [
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg',
   },
+  {
+    id: 9,
+    name: 'Algolia Woo Indexer',
+    description:
+      'Wordpress plugin for indeksering av WooCommerce-produkter til Algolia.',
+    subdescription: 'Inneholder: Wordpress, WooCommerce, PHP, OOP, PHPCS',
+    category: 'Woocommerce',
+    urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
+    urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
+    image:
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1593138406/Dfweb/algolia-woo-indexer.jpg',
+  },
 ];
