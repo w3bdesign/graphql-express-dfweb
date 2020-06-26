@@ -92,8 +92,8 @@ exports.data = [
     id: 9,
     name: 'Algolia Woo Indexer',
     description:
-      'Wordpress plugin for indeksering av WooCommerce-produkter til Algolia.',
-    subdescription: 'Inneholder: Wordpress, WooCommerce, PHP, OOP, PHPCS',
+      'Plugin for å sende WooCommerce-produkter til Algolia.',
+    subdescription: 'Inneholder: Wordpress, PHP, OOP, PHPCS, POT.',
     category: 'Woocommerce',
     urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
