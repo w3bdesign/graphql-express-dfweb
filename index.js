@@ -2,17 +2,16 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
 
+// Hardcoded JSON data to keep things easier to administrate
 const projectData = require('./data/data');
 
-// construct a schema, using GraphQL schema language
+// Construct a schema with GraphQL schema language
 const schema = buildSchema(`
-
   type Query {    
     singleProject(id: Int!): Project
     allProjects(category: String): [Project]
     allProjectsInCategory(category: String!): [Project]
   }
-
   type Project
   {
     id: Int!
