@@ -48,7 +48,7 @@ exports.data = [
     id: 5,
     name: 'TODO med React Hooks',
     description: 'TODO applikasjon med React Hooks og Ant Design. ',
-    subdescription: 'Inneholder: React, Ant Design, Hooks, testing.',
+    subdescription: 'Inneholder: React, Ant Design, Hooks, React-Testing-Library.',
     category: 'React',
     urlwww: 'https://react-todo-hooks.netlify.app/',
     urlgithub: 'https://github.com/w3bdesign/todo-hooks',
