@@ -15,7 +15,7 @@ exports.data = [
     name: 'Nextjs Woocommerce',
     description: 'Nettbutikk med Woocommerce som backend. Under utvikling.',
     subdescription:
-      'NextJS, React, GraphQL, Tailwind CSS med mer.',
+      'NextJS, React, GraphQL, Tailwind CSS, React Hook Form med mer.',
     category: 'React',
     urlwww: 'https://nextjs-woocommerce.now.sh/',
     urlgithub: 'https://github.com/w3bdesign/nextjs-woocommerce',
