@@ -13,7 +13,7 @@ exports.data = [
   {
     id: 2,
     name: 'Nextjs Woocommerce',
-    description: 'Nettbutikk med Woocommerce som backend. Under utvikling.',
+    description: 'Nettbutikk med Woocommerce som backend.',
     subdescription:
       'NextJS, React, GraphQL, Tailwind CSS, React Hook Form med mer.',
     category: 'React',
