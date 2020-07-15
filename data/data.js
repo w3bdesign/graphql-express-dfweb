@@ -28,7 +28,7 @@ exports.data = [
     description: 'Henter informasjon fra API.',
     subdescription: 'Javascript, Materialize, jQuery.',
     category: 'Javascript',
-    urlwww: 'https://sleepy-payne-cbfe8b.netlify.app/',
+    urlwww: 'https://vegvesen.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556573/Dfweb/statens-vegvesen_xsth2e.jpg',
@@ -39,7 +39,7 @@ exports.data = [
     description: 'Nettbutikk laget i React med Create React App. ',
     subdescription: 'React, Firebase, Redux, Styled components.',
     category: 'React',
-    urlwww: 'https://react-ecommerce-shop.netlify.app/',
+    urlwww: 'https://react-ecommerce.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/react-ecommerce',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556748/Dfweb/react-ecommerce_pxj0my.jpg',
@@ -50,7 +50,7 @@ exports.data = [
     description: 'TODO applikasjon med React Hooks og Ant Design. ',
     subdescription: 'React, Ant Design, Hooks, React-Testing-Library.',
     category: 'React',
-    urlwww: 'https://react-todo-hooks.netlify.app/',
+    urlwww: 'https://todohooks.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/todo-hooks',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588555098/Dfweb/todo-hooks_ectluc.jpg',
