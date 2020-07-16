@@ -71,7 +71,7 @@ exports.data = [
     name: 'Style Child',
     description: 'Nettbutikk med Woocommerce og Pckasse integrasjon.',
     subdescription: 'Wordpress, Woocommerce, Pckasse',
-    category: 'Woocommerce',
+    category: 'WooCommerce',
     urlwww: 'https://www.stylechild.no/',
     urlgithub: '',
     image:
@@ -82,7 +82,7 @@ exports.data = [
     name: 'Min Hestebutikk',
     description: 'Nettbutikk med Woocommerce og Pckasse integrasjon.',
     subdescription: 'Wordpress, Woocommerce, Pckasse',
-    category: 'Woocommerce',
+    category: 'WooCommerce',
     urlwww: 'https://www.minhestebutikk.no/',
     urlgithub: '',
     image:
@@ -93,7 +93,7 @@ exports.data = [
     name: 'Algolia Woo Indexer',
     description: 'Plugin for å sende WooCommerce-produkter til Algolia.',
     subdescription: 'Wordpress, PHP, OOP, PHPCS, POT.',
-    category: 'Woocommerce',
+    category: 'WooCommerce',
     urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     image:
