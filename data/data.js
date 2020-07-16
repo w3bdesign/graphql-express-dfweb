@@ -12,8 +12,8 @@ exports.data = [
   },
   {
     id: 2,
-    name: 'Nextjs Woocommerce',
-    description: 'Nettbutikk med Woocommerce som backend.',
+    name: 'Nextjs WooCommerce',
+    description: 'Nettbutikk med WooCommerce som backend.',
     subdescription:
       'NextJS, React, GraphQL, Tailwind CSS, React Hook Form med mer.',
     category: 'React',
@@ -36,7 +36,7 @@ exports.data = [
   {
     id: 4,
     name: 'Nettbutikk i React',
-    description: 'Nettbutikk laget i React med Create React App. ',
+    description: 'Nettbutikk laget i React med Create React App.',
     subdescription: 'React, Firebase, Redux, Styled components.',
     category: 'React',
     urlwww: 'https://react-ecommerce.dfweb.no/',
@@ -69,8 +69,8 @@ exports.data = [
   {
     id: 7,
     name: 'Style Child',
-    description: 'Nettbutikk med Woocommerce og Pckasse integrasjon.',
-    subdescription: 'Wordpress, Woocommerce, Pckasse',
+    description: 'Nettbutikk med WooCommerce og Pckasse integrasjon.',
+    subdescription: 'WordPress, WooCommerce, Pckasse',
     category: 'WooCommerce',
     urlwww: 'https://www.stylechild.no/',
     urlgithub: '',
@@ -80,8 +80,8 @@ exports.data = [
   {
     id: 8,
     name: 'Min Hestebutikk',
-    description: 'Nettbutikk med Woocommerce og Pckasse integrasjon.',
-    subdescription: 'Wordpress, Woocommerce, Pckasse',
+    description: 'Nettbutikk med WooCommerce og Pckasse integrasjon.',
+    subdescription: 'Wordpress, WooCommerce, Pckasse',
     category: 'WooCommerce',
     urlwww: 'https://www.minhestebutikk.no/',
     urlgithub: '',
@@ -92,7 +92,7 @@ exports.data = [
     id: 9,
     name: 'Algolia Woo Indexer',
     description: 'Plugin for å sende WooCommerce-produkter til Algolia.',
-    subdescription: 'Wordpress, PHP, OOP, PHPCS, POT.',
+    subdescription: 'WordPress, PHP, OOP, PHPCS, POT.',
     category: 'WooCommerce',
     urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
