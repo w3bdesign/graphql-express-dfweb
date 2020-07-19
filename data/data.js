@@ -68,28 +68,17 @@ exports.data = [
   },
   {
     id: 7,
-    name: 'Style Child',
+    name: 'Bunadrosen',
     description: 'Nettbutikk med WooCommerce og Pckasse integrasjon.',
     subdescription: 'WordPress, WooCommerce, Pckasse',
     category: 'WooCommerce',
-    urlwww: 'https://www.stylechild.no/',
+    urlwww: 'https://www.solvbutikken.no/',
     urlgithub: '',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588558961/Dfweb/style-child_uuginq.jpg',
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1595122726/Dfweb/solvbutikken_zrpjsf.jpg',
   },
   {
     id: 8,
-    name: 'Min Hestebutikk',
-    description: 'Nettbutikk med WooCommerce og Pckasse integrasjon.',
-    subdescription: 'Wordpress, WooCommerce, Pckasse',
-    category: 'WooCommerce',
-    urlwww: 'https://www.minhestebutikk.no/',
-    urlgithub: '',
-    image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg',
-  },
-  {
-    id: 9,
     name: 'Algolia Woo Indexer',
     description: 'Plugin for å sende WooCommerce-produkter til Algolia.',
     subdescription: 'WordPress, PHP, OOP, PHPCS, POT.',
@@ -98,5 +87,17 @@ exports.data = [
     urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1594424771/Dfweb/algolia-woocommerce-indexer.jpg',
+  },
+  {
+    id: 9,
+    name: 'Min Hestebutikk',
+    description:
+      'Nettbutikk med Magento og Pckasse integrasjon. I dag bruker siden WooCommerce.',
+    subdescription: 'Magento, Pckasse',
+    category: 'Magento',
+    urlwww: 'https://www.minhestebutikk.no/',
+    urlgithub: '',
+    image:
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg',
   },
 ];
