@@ -47,7 +47,7 @@ exports.data = [
   {
     id: 5,
     name: 'TODO med React Hooks',
-    description: 'TODO applikasjon med React Hooks og Ant Design. ',
+    description: 'TODO applikasjon med React Hooks og Ant Design.',
     subdescription: 'React, Ant Design, Hooks, React-Testing-Library.',
     category: 'React',
     urlwww: 'https://todohooks.dfweb.no/',
@@ -81,7 +81,7 @@ exports.data = [
     id: 8,
     name: 'Algolia Woo Indexer',
     description: 'Plugin for å sende WooCommerce-produkter til Algolia.',
-    subdescription: 'WordPress, PHP, OOP, PHPCS, POT.',
+    subdescription: 'WordPress, PHP, OOP, PHPCS, POT',
     category: 'WooCommerce',
     urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
     urlgithub: 'https://github.com/w3bdesign/algolia-woo-indexer/',
@@ -99,5 +99,16 @@ exports.data = [
     urlgithub: '',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg',
+  },
+  {
+    id: 10,
+    name: 'TODO med Typescript',
+    description: 'TODO applikasjon med Material UI og Typescript',
+    subdescription: 'React, Typescript, Material UI, Easy Peasy med mer',
+    category: 'Javascript',
+    urlwww: 'https://react-todo-typescript.dfweb.no/',
+    urlgithub: 'https://github.com/w3bdesign/react-todo-typescript',
+    image:
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1597801368/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
   },
 ];

@@ -1,6 +1,6 @@
 {
   "name": "graphql-express-dfweb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "test.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-graphql": "^0.9.0",
-    "graphql": "^15.2.0"
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
