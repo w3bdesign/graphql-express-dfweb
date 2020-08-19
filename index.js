@@ -1,5 +1,5 @@
 const express = require('express');
-const graphqlHTTP = require('express-graphql');
+const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
 
 // Hardcoded JSON data to keep things easier to administrate
