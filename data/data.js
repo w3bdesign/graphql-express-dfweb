@@ -105,7 +105,7 @@ exports.data = [
     name: 'TODO med Typescript',
     description: 'TODO applikasjon med Material UI og Typescript',
     subdescription: 'React, Typescript, Material UI, Easy Peasy med mer',
-    category: 'Javascript',
+    category: 'React',
     urlwww: 'https://react-todo-typescript.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/react-todo-typescript',
     image:
