@@ -26,7 +26,7 @@ exports.data = [
     id: 3,
     name: 'Statens Vegvesen',
     description: 'Henter informasjon fra API.',
-    subdescription: 'Javascript, Materialize, jQuery.',
+    subdescription: 'Typescript, OOP, Materialize CSS.',
     category: 'Javascript',
     urlwww: 'https://vegvesen.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
