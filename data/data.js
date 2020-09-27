@@ -36,7 +36,7 @@ exports.data = [
   {
     id: 4,
     name: 'Nettbutikk i React',
-    description: 'Nettbutikk laget i React med Create React App.',
+    description: 'Nettbutikk laget i React.',
     subdescription: 'React, Firebase, Redux, Styled components.',
     category: 'React',
     urlwww: 'https://react-ecommerce.dfweb.no/',
@@ -58,7 +58,7 @@ exports.data = [
   {
     id: 6,
     name: 'DFWeb versjon 1',
-    description: 'Første versjon av www.dfweb.no. ',
+    description: 'Første versjon av www.dfweb.no.',
     subdescription: 'HTML5, Javascript, SASS, GSAP',
     category: 'Javascript',
     urlwww: 'https://v1.dfweb.no',
@@ -103,12 +103,23 @@ exports.data = [
   {
     id: 10,
     name: 'TODO med Typescript',
-    description: 'TODO applikasjon med Material UI og Typescript',
+    description: 'TODO applikasjon med Material UI og Typescript.',
     subdescription: 'React, Typescript, Material UI, Easy Peasy med mer',
     category: 'React',
     urlwww: 'https://react-todo-typescript.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/react-todo-typescript',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1597801368/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
+  },
+  {
+    id: 11,
+    name: 'Stein, saks og papir',
+    description: 'Stein, saks og papir i React.',
+    subdescription: 'React, React-Testing-Library, Easy Peasy, React Bootstrap med mer',
+    category: 'React',
+    urlwww: 'https://nova.dfweb.no/',
+    urlgithub: 'https://github.com/w3bdesign/stein-saks-papir',
+    image:
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1601217905/Dfweb/stein-saks-papir_w9joyf.jpg',
   },
 ];
