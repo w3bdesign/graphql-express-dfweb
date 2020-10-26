@@ -117,7 +117,7 @@ exports.data = [
     description: 'Stein, saks og papir i React.',
     subdescription: 'React, React-Testing-Library, Easy Peasy, React Bootstrap med mer',
     category: 'React',
-    urlwww: 'https://nova.dfweb.no/',
+    urlwww: 'https://steinsakspapir.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/stein-saks-papir',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1601217905/Dfweb/stein-saks-papir_w9joyf.jpg',

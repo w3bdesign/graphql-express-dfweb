@@ -1,6 +1,6 @@
 {
   "name": "graphql-express-dfweb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "test.js",
   "scripts": {
@@ -15,6 +15,6 @@
     "graphql": "^15.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   }
 }
