@@ -26,7 +26,8 @@ exports.data = [
     id: 3,
     name: 'Statens Vegvesen',
     description: 'Henter informasjon fra API med serverless backend.',
-    subdescription: 'HTML5, Typescript, OOP, Materialize CSS, Parcel, Serverless.',
+    subdescription:
+      'HTML5, Typescript, OOP, Materialize CSS, Parcel, Serverless.',
     category: 'Javascript',
     urlwww: 'https://vegvesen.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
@@ -91,8 +92,7 @@ exports.data = [
   {
     id: 9,
     name: 'Vue 3 TODO',
-    description:
-      'TODO med Vue 3, Vue Router og Tailwind CSS.',
+    description: 'TODO med Vue 3, Vue Router og Tailwind CSS.',
     subdescription: 'Vue',
     category: 'Vue',
     urlwww: 'https://vue-todo.dfweb.no/',
@@ -115,7 +115,8 @@ exports.data = [
     id: 11,
     name: 'Stein, saks og papir',
     description: 'Stein, saks og papir i React.',
-    subdescription: 'React, React-Testing-Library, Easy Peasy, React Bootstrap med mer',
+    subdescription:
+      'React, React-Testing-Library, Easy Peasy, React Bootstrap med mer',
     category: 'React',
     urlwww: 'https://steinsakspapir.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/stein-saks-papir',
