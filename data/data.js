@@ -90,15 +90,15 @@ exports.data = [
   },
   {
     id: 9,
-    name: 'Min Hestebutikk',
+    name: 'Vue 3 TODO',
     description:
-      'Nettbutikk med Magento og Pckasse integrasjon. I dag bruker siden WooCommerce.',
-    subdescription: 'Magento, Pckasse',
-    category: 'Magento',
-    urlwww: 'https://www.minhestebutikk.no/',
-    urlgithub: '',
+      'TODO med Vue 3, Vue Router og Tailwind CSS.',
+    subdescription: 'Vue',
+    category: 'Vue',
+    urlwww: 'https://vue-todo.dfweb.no/',
+    urlgithub: 'https://github.com/w3bdesign/vue-todo',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588559104/Dfweb/min-hestebutikk_sg6hfe.jpg',
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1604371393/Dfweb/vue-todo-screenshot_eeqqgf.jpg',
   },
   {
     id: 10,
