@@ -91,14 +91,14 @@ exports.data = [
   },
   {
     id: 9,
-    name: 'Vue 3 TODO',
-    description: 'TODO med Vue 3, Vue Router og Tailwind CSS.',
-    subdescription: 'Vue',
+    name: 'Nuxt TODO',
+    description: 'TODO applikasjon med Nuxt og Vue.',
+    subdescription: 'Vue, Nuxt, Vuex, Tailwind, Typescript.',
     category: 'Vue',
     urlwww: 'https://vue-todo.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/vue-todo',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1604371393/Dfweb/vue-todo-screenshot_eeqqgf.jpg',
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1604540889/Dfweb/vue-todo-screenshot_gem2gr.jpg',     
   },
   {
     id: 10,
