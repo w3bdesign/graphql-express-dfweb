@@ -91,14 +91,14 @@ exports.data = [
   },
   {
     id: 9,
-    name: 'Nuxt TODO',
-    description: 'TODO applikasjon med Nuxt og Vue.',
-    subdescription: 'Vue, Nuxt, Vuex, Tailwind, Typescript.',
+    name: 'Nuxt WooCommerce',
+    description: 'Nettbutikk med Nuxt og Vue.',
+    subdescription: 'Vue, Nuxt, Tailwind, GraphQL, Algolia.',
     category: 'Vue',
-    urlwww: 'https://vue-todo.dfweb.no/',
-    urlgithub: 'https://github.com/w3bdesign/vue-todo',
+    urlwww: 'https://nuxt.dfweb.no/',
+    urlgithub: 'https://github.com/w3bdesign/nuxtjs-woocommerce',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1604540889/Dfweb/vue-todo-screenshot_gem2gr.jpg',     
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1607058540/Dfweb/nuxtwoo_ymrolw.jpg',     
   },
   {
     id: 10,
