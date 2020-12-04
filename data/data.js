@@ -116,7 +116,7 @@ exports.data = [
     name: 'Stein, saks og papir',
     description: 'Stein, saks og papir i React.',
     subdescription:
-      'React, React-Testing-Library, Easy Peasy, React Bootstrap med mer',
+      'React, React-Testing-Library, Cypress, Easy Peasy, React Bootstrap med mer',
     category: 'React',
     urlwww: 'https://steinsakspapir.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/stein-saks-papir',
