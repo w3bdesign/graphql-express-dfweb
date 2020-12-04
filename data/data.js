@@ -93,7 +93,7 @@ exports.data = [
     id: 9,
     name: 'Nuxt WooCommerce',
     description: 'Nettbutikk med Nuxt og Vue.',
-    subdescription: 'Vue, Nuxt, Tailwind, GraphQL, Algolia.',
+    subdescription: 'Vue, Nuxt, Tailwind, Vue Formulate, GraphQL, Algolia.',
     category: 'Vue',
     urlwww: 'https://nuxt.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/nuxtjs-woocommerce',
