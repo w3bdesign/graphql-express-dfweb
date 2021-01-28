@@ -1,2 +1,3 @@
-# GraphQL backend for Dfweb.no
+# Serverless GraphQL backend for Dfweb.no
+
 
