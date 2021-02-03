@@ -2,9 +2,9 @@ exports.data = [
   {
     id: 1,
     name: 'NextJS WooCommerce',
-    description: 'Nettbutikk med WooCommerce som backend. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Produktsøk via Algolia-integrasjon. Formvalidering gjøres via React Hook Form.',
-    subdescription:
-      'NextJS, React, GraphQL, Tailwind, React Hook Form med mer',
+    description:
+      'Nettbutikk med WooCommerce som backend. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Produktsøk via Algolia-integrasjon. Formvalidering gjøres via React Hook Form.',
+    subdescription: 'NextJS, React, GraphQL, Tailwind, React Hook Form med mer',
     category: 'React',
     urlwww: 'https://nextjs-woocommerce.now.sh/',
     urlgithub: 'https://github.com/w3bdesign/nextjs-woocommerce',
@@ -14,7 +14,8 @@ exports.data = [
   {
     id: 2,
     name: 'NuxtJS WooCommerce',
-    description: 'Nettbutikk med Nuxt og Vue. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Formvalidering via Vue Formulate.',
+    description:
+      'Nettbutikk med Nuxt og Vue. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Formvalidering via Vue Formulate.',
     subdescription:
       'Vue, Nuxt, Tailwind, Vue Formulate, animasjoner, GraphQL, Algolia',
     category: 'Vue',
@@ -26,7 +27,8 @@ exports.data = [
   {
     id: 3,
     name: 'Dfweb versjon 2',
-    description: 'Porteføljen er lagd med Gatsby og React. Animasjoner er implementert via Animate.css og React-Spring. For design har jeg brukt Tailwind. CVen lastes via React-PDF. Kontaktskjemaet bruker Netlify forms.',
+    description:
+      'Porteføljen er lagd med Gatsby og React. Animasjoner er implementert via Animate.css og React-Spring. For design har jeg brukt Tailwind. CVen lastes via React-PDF. Kontaktskjemaet bruker Netlify forms.',
     subdescription: 'Gatsby, React-Spring, Animate.css, Tailwind, Cypress',
     category: 'React',
     urlwww: 'https://www.dfweb.no/',
@@ -38,7 +40,8 @@ exports.data = [
   {
     id: 4,
     name: 'Algolia Woo Indexer',
-    description: 'Plugin for å sende WooCommerce-produkter til Algolia. Pluginen er kodet i PHP 7 og inkluderer oversettelser via .PO og .MO filer. Koden er testet i PHPCS. ',
+    description:
+      'Plugin for å sende WooCommerce-produkter til Algolia. Pluginen er kodet i PHP 7 og inkluderer oversettelser via .PO og .MO filer. Koden er testet i PHPCS. ',
     subdescription: 'WordPress, PHP, OOP, PHPCS, POT',
     category: 'PHP',
     urlwww: 'https://github.com/w3bdesign/algolia-woo-indexer/',
@@ -49,9 +52,9 @@ exports.data = [
   {
     id: 5,
     name: 'Statens Vegvesen',
-    description: 'Henter informasjon fra Statens Vegvesen sitt REST API med en serverless backend som benyttes som proxy. Bruker Parcel bundler og er kodet i Typescript med HTML5 og Materialize for design.',
-    subdescription:
-      'HTML5, Typescript, OOP, Materialize, Parcel, Serverless',
+    description:
+      'Henter informasjon fra Statens Vegvesen sitt REST API med en serverless backend som benyttes som proxy. Bruker Parcel bundler og er kodet i Typescript med HTML5 og Materialize for design.',
+    subdescription: 'HTML5, Typescript, OOP, Materialize, Parcel, Serverless',
     category: 'Javascript',
     urlwww: 'https://vegvesen.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
@@ -61,7 +64,8 @@ exports.data = [
   {
     id: 6,
     name: 'Stein, saks og papir',
-    description: 'Stein, saks og papir i React. Bruker Easy Peasy for state-håndtering og inkluderer tester i både Cypress og React-Testing-Library. Design via React Bootstrap.',
+    description:
+      'Stein, saks og papir i React. Bruker Easy Peasy for state-håndtering og inkluderer tester i både Cypress og React-Testing-Library. Design via React Bootstrap.',
     subdescription:
       'React, React-Testing-Library, Cypress, Easy Peasy, React Bootstrap med mer',
     category: 'React',
@@ -73,7 +77,8 @@ exports.data = [
   {
     id: 7,
     name: 'DFWeb versjon 1',
-    description: 'Første versjon av www.dfweb.no. Siden er utviklet i HTML5 i bunn og benytter seg av Javascript med SCSS for layout og GSAP for animasjoner.',
+    description:
+      'Første versjon av www.dfweb.no. Siden er utviklet i HTML5 i bunn og benytter seg av Javascript med SCSS for layout og GSAP for animasjoner.',
     subdescription: 'HTML5, Javascript, SASS, GSAP',
     category: 'Javascript',
     urlwww: 'https://v1.dfweb.no',
@@ -85,7 +90,8 @@ exports.data = [
   {
     id: 8,
     name: 'TODO med Typescript',
-    description: 'TODO applikasjon med React. State-håndtering gjøres via Easy Peasy. Kodet i Typescript med Material UI for design og layout. ',
+    description:
+      'TODO applikasjon med React. State-håndtering gjøres via Easy Peasy. Kodet i Typescript med Material UI for design og layout. ',
     subdescription: 'React, Typescript, Material UI, Easy Peasy med mer',
     category: 'React',
     urlwww: 'https://react-todo-typescript.dfweb.no/',
