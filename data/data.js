@@ -4,7 +4,7 @@ exports.data = [
     name: 'NextJS WooCommerce',
     description: 'Nettbutikk med WooCommerce som backend. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Produktsøk via Algolia-integrasjon. Formvalidering gjøres via React Hook Form.',
     subdescription:
-      'NextJS, React, GraphQL, Tailwind, React Hook Form med mer.',
+      'NextJS, React, GraphQL, Tailwind, React Hook Form med mer',
     category: 'React',
     urlwww: 'https://nextjs-woocommerce.now.sh/',
     urlgithub: 'https://github.com/w3bdesign/nextjs-woocommerce',
@@ -16,7 +16,7 @@ exports.data = [
     name: 'NuxtJS WooCommerce',
     description: 'Nettbutikk med Nuxt og Vue. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Formvalidering via Vue Formulate.',
     subdescription:
-      'Vue, Nuxt, Tailwind, Vue Formulate, animasjoner, GraphQL, Algolia.',
+      'Vue, Nuxt, Tailwind, Vue Formulate, animasjoner, GraphQL, Algolia',
     category: 'Vue',
     urlwww: 'https://nuxt.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/nuxtjs-woocommerce',
@@ -27,7 +27,7 @@ exports.data = [
     id: 3,
     name: 'Dfweb versjon 2',
     description: 'Porteføljen er lagd med Gatsby og React. Animasjoner er implementert via Animate.css og React-Spring. For design har jeg brukt Tailwind. CVen lastes via React-PDF. Kontaktskjemaet bruker Netlify forms.',
-    subdescription: 'Gatsby, React-Spring, Animate.css, Tailwind, Cypress.',
+    subdescription: 'Gatsby, React-Spring, Animate.css, Tailwind, Cypress',
     category: 'React',
     urlwww: 'https://www.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/dfweb',
