@@ -2,7 +2,7 @@ exports.data = [
   {
     id: 1,
     name: 'NextJS WooCommerce',
-    description: 'Nettbutikk med WooCommerce som backend.',
+    description: 'Nettbutikk med WooCommerce som backend. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind CSS for design. Formvalidering gjøres via React Hook Form.',
     subdescription:
       'NextJS, React, GraphQL, Tailwind CSS, React Hook Form med mer.',
     category: 'React',
@@ -73,7 +73,7 @@ exports.data = [
   {
     id: 7,
     name: 'DFWeb versjon 1',
-    description: 'Første versjon av www.dfweb.no.',
+    description: 'Første versjon av www.dfweb.no. Siden er utviklet i HTML5 i bunn og benytter seg av Javascript med SCSS for layout og GSAP for animasjoner.',
     subdescription: 'HTML5, Javascript, SASS, GSAP',
     category: 'Javascript',
     urlwww: 'https://v1.dfweb.no',
