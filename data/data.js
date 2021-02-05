@@ -15,9 +15,9 @@ exports.data = [
     id: 2,
     name: 'NuxtJS WooCommerce',
     description:
-      'Nettbutikk med Nuxt og Vue. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Formvalidering via Vue Formulate.',
+      'Nettbutikk med Nuxt og Vue. Produktene hentes via en GraphQL endpoint via WPGraphQL WordPress plugin og benytter seg av Tailwind for design. Bildekarusell med Swiper. Formvalidering via Vue Formulate.',
     subdescription:
-      'Vue, Nuxt, Tailwind, Vue Formulate, animasjoner, GraphQL, Algolia',
+      'Vue, Nuxt, Tailwind, Vue Formulate, animasjoner, GraphQL, Algolia, Swiper',
     category: 'Vue',
     urlwww: 'https://nuxt.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/nuxtjs-woocommerce',
