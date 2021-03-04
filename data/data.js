@@ -86,7 +86,6 @@ exports.data = [
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556839/Dfweb/dfweb-v1_txl9wx.jpg',
   },
-
   {
     id: 8,
     name: 'TODO med Typescript',
