@@ -98,4 +98,15 @@ exports.data = [
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1597801368/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
   },
+  {
+    id: 9,
+    name: 'Nettbutikk i Laravel og Vue 3',
+    description:
+      'Nettbutikk med Laravel 8 og Vue 3. Formvalidering med Vee Validate og Yup. Stripe er integrert for betaling. Animasjoner og responsivt design.',
+    category: 'Vue',
+    urlwww: 'https://laravel-vue3.herokuapp.com/',
+    urlgithub: 'https://github.com/w3bdesign/laravel-vue',
+    image:
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1614834460/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
+  },
 ];
