@@ -102,8 +102,8 @@ exports.data = [
     id: 9,
     name: 'Nettbutikk i Laravel og Vue 3',
     description:
-      'Nettbutikk med Laravel 8 og Vue 3. Formvalidering med Vee Validate og Yup. Stripe-integrasjon for betaling. Design er gjort via Tailwind CSS. Bruker PostgreSQL database til backend.',
-    subdescription: 'Laravel, Vue, Vee Validate, Tailwind, Stripe, PostgreSQL',
+      'Nettbutikk med Laravel 8 og Vue 3. Formvalidering med Vee Validate og Yup. Statehåndtering via Vuex 4. Stripe-integrasjon for betaling. Design er gjort via Tailwind CSS. Bruker PostgreSQL database til backend.',
+    subdescription: 'Laravel, Vue, Vee Validate, Tailwind, Stripe, PostgreSQL, Vuex',
     category: 'Vue',
     urlwww: 'https://laravel-vue3.herokuapp.com/',
     urlgithub: 'https://github.com/w3bdesign/laravel-vue',
