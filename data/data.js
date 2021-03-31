@@ -51,18 +51,6 @@ exports.data = [
   },
   {
     id: 5,
-    name: 'Statens Vegvesen',
-    description:
-      'Henter informasjon fra Statens Vegvesen sitt REST API med en serverless backend som benyttes som proxy. Bruker Parcel bundler og er kodet i Typescript med HTML5 og Materialize for design.',
-    subdescription: 'HTML5, Typescript, OOP, Materialize, Parcel, Serverless',
-    category: 'Javascript',
-    urlwww: 'https://vegvesen.dfweb.no/',
-    urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
-    image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556573/Dfweb/statens-vegvesen_xsth2e.jpg',
-  },
-  {
-    id: 6,
     name: 'Stein, saks og papir',
     description:
       'Stein, saks og papir i React. Bruker Easy Peasy for state-håndtering og inkluderer tester i både Cypress og React-Testing-Library. Design via React Bootstrap.',
@@ -75,7 +63,7 @@ exports.data = [
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1601217905/Dfweb/stein-saks-papir_w9joyf.jpg',
   },
   {
-    id: 7,
+    id: 6,
     name: 'DFWeb versjon 1',
     description:
       'Første versjon av www.dfweb.no. Siden er utviklet i HTML5 i bunn og benytter seg av Javascript med SCSS for layout og GSAP for animasjoner.',
@@ -87,7 +75,7 @@ exports.data = [
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556839/Dfweb/dfweb-v1_txl9wx.jpg',
   },
   {
-    id: 8,
+    id: 7,
     name: 'TODO med Typescript',
     description:
       'TODO applikasjon med React. State-håndtering gjøres via Easy Peasy. Kodet i Typescript med Material UI for design og layout. ',
@@ -99,7 +87,7 @@ exports.data = [
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1597801368/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
   },
   {
-    id: 9,
+    id: 8,
     name: 'Nettbutikk i Laravel og Vue 3',
     description:
       'Nettbutikk med Laravel 8 og Vue 3. Formvalidering med Vee Validate og Yup. Statehåndtering via Vuex 4. Stripe-integrasjon for betaling. Design er gjort via Tailwind CSS. Bruker PostgreSQL database til backend.',
