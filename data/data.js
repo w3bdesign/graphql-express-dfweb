@@ -64,27 +64,27 @@ exports.data = [
   },
   {
     id: 6,
-    name: 'DFWeb versjon 1',
+    name: 'Statens Vegvesen',
     description:
-      'Første versjon av www.dfweb.no. Siden er utviklet i HTML5 i bunn og benytter seg av Javascript med SCSS for layout og GSAP for animasjoner.',
-    subdescription: 'HTML5, Javascript, SASS, GSAP',
-    category: 'Javascript',
-    urlwww: 'https://v1.dfweb.no',
-    urlgithub: 'https://github.com/w3bdesign/dfweb-v1',
+      'Henter informasjon fra Statens Vegvesen sitt REST API med en serverless backend som benyttes som proxy. Bruker Parcel bundler og er kodet i Typescript med HTML5 og Materialize for design.',
+    subdescription: 'HTML5, Typescript, OOP, Materialize, Parcel, Serverless',
+    category: 'Typescript',
+    urlwww: 'https://vegvesen.dfweb.no/',
+    urlgithub: 'https://github.com/w3bdesign/Statens-Vegvesen',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556839/Dfweb/dfweb-v1_txl9wx.jpg',
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1588556573/Dfweb/statens-vegvesen_xsth2e.jpg',
   },
   {
     id: 7,
-    name: 'TODO med Typescript',
+    name: 'NAV Jobb Utforsker',
     description:
-      'TODO applikasjon med React. State-håndtering gjøres via Easy Peasy. Kodet i Typescript med Material UI for design og layout. ',
-    subdescription: 'React, Typescript, Material UI, Easy Peasy med mer',
-    category: 'React',
-    urlwww: 'https://react-todo-typescript.dfweb.no/',
-    urlgithub: 'https://github.com/w3bdesign/react-todo-typescript',
+      'NAV jobb utforsker med React og Typescript. Bruker NAV sitt frontend bibliotek samt SASS og moduler for styling og design. React-toastify for error håndtering. State håndtering via Easy Peasy.  ',
+    subdescription: 'React, Typescript, SASS, Easy Peasy, React-Toastify ',
+    category: 'Typescript',
+    urlwww: 'https://nav-jobs.vercel.app/',
+    urlgithub: 'https://github.com/w3bdesign/nav-jobs',
     image:
-      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1597801368/Dfweb/todo-typescript-screenshot_kvmo1t.jpg',
+      'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1618012244/Dfweb/nav-jobber_t2exy7.jpg',    
   },
   {
     id: 8,
