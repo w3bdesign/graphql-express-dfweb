@@ -78,8 +78,8 @@ exports.data = [
     id: 7,
     name: 'NAV Jobb Utforsker',
     description:
-      'NAV jobb utforsker med React og Typescript. Bruker NAV sitt frontend bibliotek samt SASS og moduler for styling og design. React-toastify for error håndtering. State håndtering via Easy Peasy.  ',
-    subdescription: 'React, Typescript, SASS, Easy Peasy, React-Toastify ',
+      'NAV jobb utforsker med React og Typescript. Bruker NAV sitt frontend bibliotek samt SASS og moduler for styling og design. Animasjoner med React-toastify, React Transition Group og Animate.css. State håndtering via Easy Peasy.  ',
+    subdescription: 'React, Typescript, SASS, Easy Peasy, React-Toastify, React Transition Group, Animate.css ',
     category: 'Typescript',
     urlwww: 'https://nav.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/nav-jobs',
