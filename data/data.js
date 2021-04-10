@@ -81,7 +81,7 @@ exports.data = [
       'NAV jobb utforsker med React og Typescript. Bruker NAV sitt frontend bibliotek samt SASS og moduler for styling og design. React-toastify for error håndtering. State håndtering via Easy Peasy.  ',
     subdescription: 'React, Typescript, SASS, Easy Peasy, React-Toastify ',
     category: 'Typescript',
-    urlwww: 'https://nav-jobs.vercel.app/',
+    urlwww: 'https://nav.dfweb.no/',
     urlgithub: 'https://github.com/w3bdesign/nav-jobs',
     image:
       'https://res.cloudinary.com/duelisue0/image/upload/c_fill,h_255,w_500/v1618012244/Dfweb/nav-jobber_t2exy7.jpg',    
