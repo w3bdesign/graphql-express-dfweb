@@ -2,7 +2,7 @@
   "name": "graphql-express-dfweb",
   "version": "1.0.8",
   "description": "",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
